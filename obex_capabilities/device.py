@@ -115,8 +115,8 @@ class ARMDevice(Device):
 
     @property
     def manufacturer(self) -> str:
-        if path.exists("/usr/lib/droidian/device/obex-manufacturer"):
-            with open("/usr/lib/droidian/device/obex-manufacturer", "r") as manufacturer_file:
+        if path.exists("/usr/lib/furios/device/obex-manufacturer"):
+            with open("/usr/lib/furios/device/obex-manufacturer", "r") as manufacturer_file:
                 return manufacturer_file.read().strip()
 
         try:
@@ -132,8 +132,8 @@ class ARMDevice(Device):
 
     @property
     def model(self) -> str:
-        if path.exists("/usr/lib/droidian/device/obex-model"):
-            with open("/usr/lib/droidian/device/obex-model", "r") as model_file:
+        if path.exists("/usr/lib/furios/device/obex-model"):
+            with open("/usr/lib/furios/device/obex-model", "r") as model_file:
                 return model_file.read().strip()
 
         try:
@@ -148,8 +148,8 @@ class ARMDevice(Device):
 
     @property
     def codename(self) -> str:
-        if path.exists("/usr/lib/droidian/device/obex-codename"):
-            with open("/usr/lib/droidian/device/obex-codename", "r") as codename_file:
+        if path.exists("/usr/lib/furios/device/obex-codename"):
+            with open("/usr/lib/furios/device/obex-codename", "r") as codename_file:
                 return codename_file.read().strip()
 
         try:
