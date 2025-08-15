@@ -1,5 +1,5 @@
 # SPDX-FileCopyrightText: 2021 Dylan Van Assche <me@dylanvanassche.be>
-# Copyright (C) 2024 Bardia Moshiri <fakeshell@bardia.tech>
+# Copyright (C) 2025 Bardia Moshiri <fakeshell@bardia.tech>
 # SPDX-License-Identifier: GPL-3.0-or-later
 
 from os.path import exists
