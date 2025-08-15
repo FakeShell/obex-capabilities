@@ -4,11 +4,11 @@ Source: https://github.com/furilabs/obex-capabilities
 
 Files: *
 Copyright: 2021 Dylan Van Assche <me@dylanvanassche.be>
-           2023 Bardia Moshiri <fakeshell@bardia.tech>
+           2025 Bardia Moshiri <fakeshell@bardia.tech>
 License: GPL-3.0-or-later
 
 Files: debian/*
-Copyright: 2024 Bardia Moshiri <fakeshell@bardia.tech>
+Copyright: 2025 Bardia Moshiri <fakeshell@bardia.tech>
 License: BSD-3-clause
 
 License: BSD-3-clause
